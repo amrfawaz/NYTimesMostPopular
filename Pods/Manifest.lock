@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - CodableAlamofire (1.1.2):
+    - Alamofire (~> 4.0)
+  - lottie-ios (3.1.8)
+  - PromiseKit (6.3.5):
+    - PromiseKit/CorePromise (= 6.3.5)
+    - PromiseKit/Foundation (= 6.3.5)
+    - PromiseKit/UIKit (= 6.3.5)
+  - PromiseKit/CorePromise (6.3.5)
+  - PromiseKit/Foundation (6.3.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.3.5):
+    - PromiseKit/CorePromise
+  - SwiftLint (0.39.2)
+  - SwiftyBeaver (1.8.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - AlamofireImage
+  - CodableAlamofire (~> 1.1.2)
+  - lottie-ios
+  - PromiseKit (~> 6.3.1)
+  - SwiftLint
+  - SwiftyBeaver (~> 1.8.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - CodableAlamofire
+    - lottie-ios
+    - PromiseKit
+    - SwiftLint
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  CodableAlamofire: b7adfb2e5e980392014b4b3f3b8b62c01b9de4aa
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  PromiseKit: 32c36425387e9cfc7f1206f27bfd906d0b53c0d6
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+  SwiftyBeaver: f9a9aba96a6a6166e21682377804d728b0d20b95
+
+PODFILE CHECKSUM: 983de5e8e48681491745f3e22cac925f53adae3d
+
+COCOAPODS: 1.9.1

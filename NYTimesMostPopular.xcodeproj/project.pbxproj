@@ -36,9 +36,6 @@
 		84E27AC82477068D00A4B739 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E27AC62477068D00A4B739 /* Router.swift */; };
 		84E27AD22477070A00A4B739 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E27ACB2477070A00A4B739 /* BaseViewController.swift */; };
 		84E27AD32477070A00A4B739 /* UIViewController+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E27ACD2477070A00A4B739 /* UIViewController+Extenstion.swift */; };
-		84E27AD42477070A00A4B739 /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = 84E27ACF2477070A00A4B739 /* empty.json */; };
-		84E27AD52477070A00A4B739 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 84E27AD02477070A00A4B739 /* error.json */; };
-		84E27AD62477070A00A4B739 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 84E27AD12477070A00A4B739 /* loading.json */; };
 		84E27AD8247714AC00A4B739 /* SearchArticleRequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E27AD7247714AC00A4B739 /* SearchArticleRequestParameters.swift */; };
 		D8EA5BE83E05855803BAB8AF /* Pods_NYTimesMostPopular_NYTimesMostPopularUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5366C3722C1432FADA6C7E68 /* Pods_NYTimesMostPopular_NYTimesMostPopularUITests.framework */; };
 		E92F1E1090DAEB4653216B7A /* Pods_NYTimesMostPopular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E214BA54F89333F19F94175 /* Pods_NYTimesMostPopular.framework */; };
@@ -102,9 +99,6 @@
 		84E27AC62477068D00A4B739 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		84E27ACB2477070A00A4B739 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		84E27ACD2477070A00A4B739 /* UIViewController+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extenstion.swift"; sourceTree = "<group>"; };
-		84E27ACF2477070A00A4B739 /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
-		84E27AD02477070A00A4B739 /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
-		84E27AD12477070A00A4B739 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		84E27AD7247714AC00A4B739 /* SearchArticleRequestParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArticleRequestParameters.swift; sourceTree = "<group>"; };
 		9532FA958976BE47F85490F7 /* Pods-NYTimesMostPopular-NYTimesMostPopularUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesMostPopular-NYTimesMostPopularUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYTimesMostPopular-NYTimesMostPopularUITests/Pods-NYTimesMostPopular-NYTimesMostPopularUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B37BF176B71F64553886C077 /* Pods-NYTimesMostPopular-NYTimesMostPopularUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesMostPopular-NYTimesMostPopularUITests.release.xcconfig"; path = "Target Support Files/Pods-NYTimesMostPopular-NYTimesMostPopularUITests/Pods-NYTimesMostPopular-NYTimesMostPopularUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -340,7 +334,6 @@
 			children = (
 				84E27ACA2477070A00A4B739 /* BaseViewControlelr */,
 				84E27ACC2477070A00A4B739 /* Extenstions */,
-				84E27ACE2477070A00A4B739 /* LottieFiles */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -359,16 +352,6 @@
 				84E27ACD2477070A00A4B739 /* UIViewController+Extenstion.swift */,
 			);
 			path = Extenstions;
-			sourceTree = "<group>";
-		};
-		84E27ACE2477070A00A4B739 /* LottieFiles */ = {
-			isa = PBXGroup;
-			children = (
-				84E27ACF2477070A00A4B739 /* empty.json */,
-				84E27AD02477070A00A4B739 /* error.json */,
-				84E27AD12477070A00A4B739 /* loading.json */,
-			);
-			path = LottieFiles;
 			sourceTree = "<group>";
 		};
 		A7F04C3221E565C6A87639C9 /* Pods */ = {
@@ -495,11 +478,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E27AD52477070A00A4B739 /* error.json in Resources */,
 				84E27AC32477025300A4B739 /* ArticleCell.xib in Resources */,
-				84E27AD42477070A00A4B739 /* empty.json in Resources */,
 				84E27A6E2476F27000A4B739 /* LaunchScreen.storyboard in Resources */,
-				84E27AD62477070A00A4B739 /* loading.json in Resources */,
 				84E27A9D2476F88B00A4B739 /* Search.storyboard in Resources */,
 				84E27A6B2476F27000A4B739 /* Assets.xcassets in Resources */,
 			);

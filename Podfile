@@ -10,7 +10,6 @@ target 'NYTimesMostPopular' do
   pod 'CodableAlamofire', '~> 1.1.2'
   pod 'SwiftyBeaver', '~> 1.8.4'
   pod 'AlamofireImage'
-  pod 'lottie-ios'
   pod 'SwiftLint'
 
 
