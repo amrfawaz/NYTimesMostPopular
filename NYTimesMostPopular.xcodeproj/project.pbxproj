@@ -176,13 +176,13 @@
 			children = (
 				84E27A952476F81B00A4B739 /* AppDelegate */,
 				84E27A962476F83600A4B739 /* SearchArticle */,
-				84E27A6A2476F27000A4B739 /* Assets.xcassets */,
-				84E27A6C2476F27000A4B739 /* LaunchScreen.storyboard */,
-				84E27A6F2476F27000A4B739 /* Info.plist */,
 				84E27AB62476F96400A4B739 /* Configuration */,
 				84E27AA42476F90A00A4B739 /* Network */,
 				84E27AC42477068D00A4B739 /* Router */,
 				84E27AC92477070A00A4B739 /* Helpers */,
+				84E27A6A2476F27000A4B739 /* Assets.xcassets */,
+				84E27A6C2476F27000A4B739 /* LaunchScreen.storyboard */,
+				84E27A6F2476F27000A4B739 /* Info.plist */,
 			);
 			path = NYTimesMostPopular;
 			sourceTree = "<group>";
