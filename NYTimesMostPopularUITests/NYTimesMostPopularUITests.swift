@@ -39,4 +39,23 @@ class NYTimesMostPopularUITests: XCTestCase {
             }
         }
     }
+
+    func testOpenArticleDetails() {
+        let app = XCUIApplication()
+        app.launch()
+
+        XCUIApplication().tables/*@START_MENU_TOKEN@*/.staticTexts["By Shawn Hubler"]/*[[".cells.staticTexts[\"By Shawn Hubler\"]",".staticTexts[\"By Shawn Hubler\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+                
+    }
+    
+    func testOpenFullArticle() {
+        
+        let app = XCUIApplication()
+        app.launch()
+
+        app.tables/*@START_MENU_TOKEN@*/.staticTexts["University of California Will End Use of SAT and ACT in Admissions"]/*[[".cells.staticTexts[\"University of California Will End Use of SAT and ACT in Admissions\"]",".staticTexts[\"University of California Will End Use of SAT and ACT in Admissions\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.buttons["Read Full Article"].tap()
+                
+                
+    }
 }

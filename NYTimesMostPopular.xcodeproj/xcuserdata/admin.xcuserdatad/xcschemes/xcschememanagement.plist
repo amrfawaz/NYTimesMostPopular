@@ -7,7 +7,35 @@
 		<key>NYTimesMostPopular.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>10</integer>
+		</dict>
+		<key>NYTimesMostPopularTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>NYTimesMostPopularUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>84E27A5D2476F26F00A4B739</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84E27A732476F27100A4B739</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84E27A7E2476F27100A4B739</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

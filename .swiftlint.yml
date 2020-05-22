@@ -4,6 +4,7 @@ disabled_rules:
 - identifier_name
 - line_length
 - force_try
+- vertical_whitespace
 opt_in_rules:
 - empty_count
 - empty_string
